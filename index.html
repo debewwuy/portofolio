@@ -1,225 +1,1531 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio Desta</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
+    <title>Portfolio Desta Arga Maulana</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
+
 
 <body>
 
-    <!-- Navbar -->
+
+    <!-- ==================================================
+         1. HEADER / NAVBAR
+    =================================================== -->
+
     <nav>
-        <h2>Desta Arga Maulana</h2>
+
+        <a href="#home" class="logo">
+            Desta Arga<span>.</span>
+        </a>
 
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About me</a>
+            </li>
+
+            <li>
+                <a href="#profile">Profile</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
         </ul>
+
     </nav>
 
 
-    <!-- Home -->
+
+    <!-- ==================================================
+         2. HERO / BERANDA
+    =================================================== -->
+
     <section id="home">
 
-        <div>
-            <p>Hello, I'm</p>
+        <div class="hero-content">
 
-            <h1>Desta Arga Maulana</h1>
-
-            <h2>Junior Web Developer</h2>
-
-            <p>
-                Saya adalah siswa SMKN 1 Jenangan Ponorogo
-                jurusan Rekayasa Perangkat Lunak yang tertarik
-                dengan dunia web development.
+            <p class="hero-small">
+                HELLO, I'M
             </p>
 
-            <a href="#projects">Lihat Project</a>
+            <h1>
+                Desta Arga<br>
+                <span>Maulana</span>
+            </h1>
+
+            <h2>
+                Junior Web Developer
+            </h2>
+
+            <p class="hero-description">
+
+                Saya adalah siswa SMKN 1 Jenangan Ponorogo
+                jurusan Rekayasa Perangkat Lunak yang tertarik
+                dengan dunia web development dan senang
+                mempelajari teknologi baru.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#projects"
+                   class="btn-primary">
+
+                    Lihat Project
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+                <a href="#contact"
+                   class="btn-secondary">
+
+                    Hubungi Saya
+
+                </a>
+
+            </div>
+
         </div>
 
-        <div>
-            <img src="assets/img/Foto_Desta arga maulana.jpeg"
-                 alt="Foto Desta Arga Maulana">
+
+
+        <!-- Foto -->
+        <div class="hero-photo">
+
+            <div class="photo-circle">
+
+                <img src="assets/img/Foto_Desta arga maulana.jpeg"
+                     alt="Foto Desta Arga Maulana">
+
+            </div>
+
+            <div class="photo-decoration"></div>
+
         </div>
 
     </section>
 
 
-    <!-- About -->
-    <section id="about">
 
-        <h2>Tentang Saya</h2>
+<!-- ==================================================
+     3. TENTANG SAYA
+=================================================== -->
 
-        <p>
-            Saya merupakan siswa SMKN 1 Jenangan Ponorogo
-            jurusan Rekayasa Perangkat Lunak (RPL).
-        </p>
+<section id="about"
+         class="section-white">
 
-        <p>
-            Saya memiliki ketertarikan dalam pengembangan
-            website dan software serta senang mempelajari
-            teknologi baru.
-            
-        </p>
+    <div class="section-heading">
 
-    </section>
+        <span>
+            ABOUT ME
+        </span>
 
-
-    <!-- Skills -->
-    <section id="skills">
-
-        <h2>Skills</h2>
-
-        <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>PHP</p>
-            <p>MySQL</p>
-            <p>PHPMyAdmin</p>
-            <p>CodeIgniter</p>
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects">
-
-    <h2>Projects</h2>
-
-    <div>
-
-        <h3>Sistem Pendaftaran Ekstrakurikuler</h3>
+        <h2>
+            Tentang Saya
+        </h2>
 
         <p>
-            Website untuk mengelola data ekstrakurikuler
-            dan pendaftaran siswa.
+            tentang saya,
+            bidang yang saya tekuni, dan prinsip
+            yang saya pegang dalam belajar.
         </p>
-
-        <div class="project-info">
-            <span>PHP</span>
-            <span>CodeIgniter 3</span>
-            <span>PHPMyAdmin</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-        </div>
-        
 
     </div>
 
 
-    <div>
+    <div class="about-content">
 
-        <h3>Sistem Manajemen Pabrik</h3>
+        <div class="about-text">
 
-        <p>
-            Sistem untuk membantu pengelolaan data
-            produksi pada pabrik perakitan.
-        </p>
+            <!-- BIODATA SINGKAT -->
 
-        <div class="project-info">
-            <span>PHP</span>
-            <span>CodeIgniter 3</span>
-            <span>PHPMyAdmin</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
+            <p>
+
+                Saya merupakan siswa SMKN 1 Jenangan
+                Ponorogo jurusan Rekayasa Perangkat Lunak
+                (RPL) yang memiliki ketertarikan pada
+                dunia teknologi dan pengembangan website.
+
+            </p>
+
+
+            <!-- BIDANG KEAHLIAN -->
+
+            <p>
+
+                Saya mempelajari bidang web development
+                dengan menggunakan HTML, CSS, JavaScript,
+                PHP, MySQL, dan CodeIgniter. Saya juga
+                tertarik untuk mengembangkan kemampuan
+                dalam desain UI/UX.
+
+            </p>
+
+
+            <!-- PRINSIP -->
+
+            <p>
+
+                Saya memiliki prinsip untuk terus belajar,
+                mencoba hal baru, dan meningkatkan kemampuan
+                melalui berbagai project. Ke depannya,
+                saya ingin terus mengembangkan kemampuan
+                di bidang web development dan menghasilkan
+                website yang bermanfaat.
+
+            </p>
+            <!-- VISI PRIBADI -->
+
+            <p>
+
+                <strong>Visi Pribadi</strong>
+                Menjadi pribadi yang terus berkembang dalam
+                bidang web development, memiliki kemampuan
+                yang baik dalam membuat website, serta dapat
+                menghasilkan karya yang bermanfaat bagi orang lain.
+
+            </p>
+
         </div>
 
-    </div>
 
-     <div>
+        <div class="about-card">
 
-        <h3>Toko Rajut</h3>
+            <div class="about-card-icon">
 
-        <p>
-            Website untuk penjualan produk rajut secara online.
-            
-        </p>
+                <i class="fa-solid fa-code"></i>
 
-        <div class="project-info">
-            <span>PHP</span>
-            <span>PHPMyAdmin</span>
-            <span>HTML</span>
-            <span>CSS</span>
+            </div>
+
+
+            <h3>
+                Bidang Saya
+            </h3>
+
+
+            <p>
+
+                Web Development dan UI/UX Design
+                menjadi bidang yang ingin saya
+                pelajari dan kembangkan.
+
+            </p>
+
         </div>
 
-<a href="https://toko-rajut.infinityfreeapp.com/"
-   class="project-button"
-   target="_blank"
-   rel="noopener noreferrer">
-    Kunjungi Project <span>→</span>
-</a>
     </div>
 
 </section>
 
 
-    <!-- Contact -->
-<section id="contact">
 
-    <h2>Contact</h2>
-    <p>
-         <h3>
-                Jika Ingin Menghubungi Saya,Anda Bisa Menghubungi Saya di Bawah Ini:
-         </h3>
-    </p>
-   
-    <p>
-        <i class="fa-solid fa-envelope"></i>
-        Email:
-        <a href="mailto:destaargamaulana641@gmail.com">
-            destaargamaulana641@gmail.com
-        </a>
-    </p>
+    <!-- ==================================================
+         4. PROFIL PROFESIONAL
+    =================================================== -->
 
-    <p>
-        <i class="fa-brands fa-instagram"></i>
-        Instagram:
-        <a href="https://www.instagram.com/2wenty5ive__?igsi=dDg4aDI5eWtwNXoy" target="_blank">
-            @2wenty5ive_
-        </a>
-    </p>
+    <section id="profile"
+             class="section-gray">
 
-    <p>
-        <i class="fa-brands fa-linkedin"></i>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/desta-arga-maulana-742694425" target="_blank">
-            Klik Untuk Ke LinkedIn 
-        </a>
-    </p>
+        <div class="section-heading">
 
-    <p>
-        <i class="fa-brands fa-github"></i>
-        GitHub:
-        <a href="https://github.com/debewwuy" target="_blank">
-            Klik Untuk Ke GitHub 
-        </a>
-    </p>
+            <span>
+                PROFESSIONAL PROFILE
+            </span>
 
-    <p>
-        <i class="fa-solid fa-location-dot"></i>
-        Lokasi: Ponorogo, Jawa Timur
-    </p>
+            <h2>
+                Profil Profesional
+            </h2>
 
-</section>
+            <p>
+                Informasi singkat mengenai bidang yang
+                sedang saya tekuni.
+            </p>
+
+        </div>
+
+
+        <div class="activity-grid">
+
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-user-tie"></i>
+
+                </div>
+
+                <h3>
+                    Posisi
+                </h3>
+
+                <p>
+                    Siswa Jurusan Rekayasa Perangkat Lunak
+                </p>
+
+            </div>
 
 
 
-    <!-- Footer -->
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-school"></i>
+
+                </div>
+
+                <h3>
+                    Instansi
+                </h3>
+
+                <p>
+                    SMKN 1 Jenangan Ponorogo
+                </p>
+
+            </div>
+
+
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                </div>
+
+                <h3>
+                    Bidang
+                </h3>
+
+                <p>
+                    Web Development
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         5. PENDIDIKAN
+    =================================================== -->
+
+    <section id="education"
+             class="section-white">
+
+        <div class="section-heading">
+
+            <span>
+                EDUCATION
+            </span>
+
+            <h2>
+                Pendidikan
+            </h2>
+
+            <p>
+                Riwayat pendidikan dari yang terbaru
+                hingga yang terdahulu.
+            </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <!-- SMK -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">
+                        Sekarang Di Tahun 2024 - 2027 
+                    </span>
+
+                    <h3>
+                        SMKN 1 Jenangan Ponorogo
+                    </h3>
+
+                    <p>
+                        Di Jurusan Rekayasa Perangkat Lunak (RPL)
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SMP -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">
+                        Sebelumnya Di tahun 2021 - 2024
+                    </span>
+
+                    <h3>
+                        SMP Terpadu Ponorogo
+                    </h3>
+
+                    <p>
+                        Pendidikan Sekolah Menengah Pertama.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SD -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">
+                        Sebelumnya Di Tahun 2015 - 2021
+                    </span>
+
+                    <h3>
+                        MIM 11 Secinde Ponorogo
+                    </h3>
+
+                    <p>
+                        Pendidikan Sekolah Dasar.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         6. PENGALAMAN
+    =================================================== -->
+
+    <section id="experience"
+             class="section-gray">
+
+        <div class="section-heading">
+
+            <span>
+                EXPERIENCE
+            </span>
+
+            <h2>
+                Pengalaman
+            </h2>
+
+            <p>
+                Pengalaman belajar yang pernah saya lalui
+                
+            </p>
+
+        </div>
+
+
+        <div class="activity-grid">
+
+
+            <!-- PKL -->
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-building"></i>
+
+                </div>
+
+
+                <h3>
+                    Praktik Kerja Lapangan
+                </h3>
+
+
+                <p>
+
+                    Mengikuti kegiatan PKL Di KAZUYA MEDIA INDONESIA untuk mendapatkan
+                    pengalaman mengenai lingkungan kerja dan
+                    menerapkan kemampuan yang telah dipelajari
+                    di sekolah.
+
+                </p>
+
+            </div>
+
+
+
+
+
+
+            <!-- Project -->
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                </div>
+
+
+                <h3>
+                    Pengembangan Project
+                </h3>
+
+
+                <p>
+
+                    Mengerjakan berbagai project website
+                    sebagai sarana untuk mengembangkan
+                    kemampuan web development.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         7. KEAHLIAN
+    =================================================== -->
+
+    <section id="skills"
+             class="section-white">
+
+        <div class="section-heading">
+
+            <span>
+                MY SKILLS
+            </span>
+
+            <h2>
+                Keahlian
+            </h2>
+
+            <p>
+
+                Beberapa teknologi yang pernah saya
+                pelajari dan gunakan dalam project.
+
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <!-- HTML -->
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <h3>
+                    HTML
+                </h3>
+
+                <p>
+                    Struktur Website
+                </p>
+
+                <small>
+                    Tingkat: Menengah
+                </small>
+
+            </div>
+
+
+
+            <!-- CSS -->
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <h3>
+                    CSS
+                </h3>
+
+                <p>
+                    Tampilan Website
+                </p>
+
+                <small>
+                    Tingkat: Menengah
+                </small>
+
+            </div>
+
+
+
+            <!-- JavaScript -->
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-js"></i>
+
+                <h3>
+                    JavaScript
+                </h3>
+
+                <p>
+                    Interaksi Website
+                </p>
+
+                <small>
+                    Tingkat: Dasar
+                </small>
+
+            </div>
+
+
+
+            <!-- PHP -->
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-php"></i>
+
+                <h3>
+                    PHP
+                </h3>
+
+                <p>
+                    Backend Development
+                </p>
+
+                <small>
+                    Tingkat: Dasar
+                </small>
+
+            </div>
+
+
+
+            <!-- MySQL -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-database"></i>
+
+                <h3>
+                    MySQL
+                </h3>
+
+                <p>
+                    Database
+                </p>
+
+                <small>
+                    Tingkat: Dasar
+                </small>
+
+            </div>
+
+
+
+            <!-- PHPMyAdmin -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-server"></i>
+
+                <h3>
+                    PHPMyAdmin
+                </h3>
+
+                <p>
+                    Database Management
+                </p>
+
+                <small>
+                    Tingkat: Dasar
+                </small>
+
+            </div>
+
+
+
+            <!-- CodeIgniter -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-layer-group"></i>
+
+                <h3>
+                    CodeIgniter
+                </h3>
+
+                <p>
+                    PHP Framework
+                </p>
+
+                <small>
+                    Tingkat: Dasar
+                </small>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         8. KARYA / PORTOFOLIO
+    =================================================== -->
+
+    <section id="projects"
+             class="section-dark">
+
+        <div class="section-heading light">
+
+            <span>
+                MY PROJECTS
+            </span>
+
+            <h2>
+                Karya / Portofolio
+            </h2>
+
+            <p>
+
+                Beberapa project yang pernah saya
+                kerjakan selama mempelajari web development.
+
+            </p>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <span class="project-number">
+                    01
+                </span>
+
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-school"></i>
+
+                </div>
+
+
+                <h3>
+                    Sistem Pendaftaran Ekstrakurikuler
+                </h3>
+
+
+                <p>
+
+                    Website untuk mengelola data
+                    ekstrakurikuler dan pendaftaran siswa.
+
+                </p>
+
+
+                <div class="project-info">
+
+                    <span>PHP</span>
+
+                    <span>CodeIgniter 3</span>
+
+                    <span>MySQL</span>
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <span class="project-number">
+                    02
+                </span>
+
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-industry"></i>
+
+                </div>
+
+
+                <h3>
+                    Sistem Manajemen Produksi Pabrik Perakitan Handphone
+                </h3>
+
+
+                <p>
+
+                    Sistem untuk membantu pengelolaan
+                    data produksi pada pabrik perakitan.
+
+                </p>
+
+
+                <div class="project-info">
+
+                    <span>PHP</span>
+
+                    <span>CodeIgniter 3</span>
+
+                    <span>MySQL</span>
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <span class="project-number">
+                    03
+                </span>
+
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-basket-shopping"></i>
+
+                </div>
+
+
+                <h3>
+                    Toko Rajut
+                </h3>
+
+
+                <p>
+
+                    Website untuk menampilkan dan menjual
+                    produk rajut secara online.
+
+                </p>
+
+
+                <div class="project-info">
+
+                    <span>PHP</span>
+
+                    <span>MySQL</span>
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                </div>
+
+
+                <!-- LINK TOKO -->
+
+                <a href="https://toko-rajut.infinityfreeapp.com/"
+                   class="project-button"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    Kunjungi Project
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         9. SERTIFIKAT 
+    =================================================== -->
+
+    <section id="certificate"
+             class="section-white">
+
+        <div class="section-heading">
+
+            <span>
+                CERTIFICATE 
+            </span>
+
+            <h2>
+                Sertifikat
+            </h2>
+
+            <p>
+
+                Kompetensi dan pengalaman yang berkaitan
+                dengan bidang yang saya pelajari.
+
+            </p>
+
+        </div>
+
+
+        <div class="certificate-card">
+
+
+            <div class="certificate-icon">
+
+                <i class="fa-solid fa-certificate"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Sertifikat PKL
+                </h3>
+
+                <p>
+
+                    Mengembangkan kemampuan web development
+                    melalui pembelajaran dan pengerjaan
+                    project di tempat PKL (praktik kerja lapangan).
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         10. KEGIATAN
+    =================================================== -->
+
+    <section id="activities"
+             class="section-gray">
+
+        <div class="section-heading">
+
+            <span>
+                ACTIVITIES
+            </span>
+
+            <h2>
+                Kegiatan
+            </h2>
+
+            <p>
+                Kegiatan Yang Pernah Saya Ikuti
+            </p>
+
+        </div>
+
+
+        <div class="activity-grid">
+
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-building"></i>
+
+                </div>
+
+                <h3>
+                    Praktik Kerja Lapangan
+                </h3>
+
+                <p>
+
+                    Kegiatan PKL Di KAZUYA MEDIA INDONESIA untuk mendapatkan
+                    pengalaman langsung mengenai
+                    lingkungan kerja.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-desktop"></i>
+
+                </div>
+
+                <h3>
+                    Kegiatan Lab RPL
+                </h3>
+
+                <p>
+
+                    Mengikuti kegiatan di laboratorium RPL
+                    untuk mempelajari dan mengembangkan
+                    kemampuan web development.
+                    
+
+                </p>
+
+            </div>
+
+
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+                <h3>
+                    Belajar Web Development
+                </h3>
+
+                <p>
+
+                    Mempelajari HTML, CSS, JavaScript,
+                    PHP, database, dan framework.
+
+                </p>
+
+            </div>
+                       
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         11. ARTIKEL / BLOG
+    =================================================== -->
+
+    <section id="blog"
+             class="section-white">
+
+        <div class="section-heading">
+
+            <span>
+                MY ARTICLES
+            </span>
+
+            <h2>
+                Artikel / Blog
+            </h2>
+
+            <p>
+
+                Catatan singkat mengenai pembelajaran
+                dan pengalaman saya di bidang web development.
+
+            </p>
+
+        </div>
+
+
+        <div class="activity-grid">
+
+
+            <!-- ARTIKEL 1 -->
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+
+                <h3>
+                    Belajar Web Development
+                </h3>
+
+
+                <p>
+
+                    Proses mempelajari dasar pembuatan
+                    website menggunakan HTML, CSS,
+                    JavaScript, dan PHP.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- ARTIKEL 2 -->
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-database"></i>
+
+                </div>
+
+
+                <h3>
+                    Belajar Database
+                </h3>
+
+
+                <p>
+
+                    Mempelajari cara menyimpan,
+                    mengelola, dan menghubungkan
+                    data menggunakan database.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- ARTIKEL 3 -->
+
+            <div class="activity-card">
+
+                <div class="activity-icon">
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                </div>
+
+
+                <h3>
+                    Pengembangan Project
+                </h3>
+
+
+                <p>
+
+                    Pengalaman belajar melalui
+                    pengerjaan project website
+                    secara bertahap.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         12. KONTAK
+    =================================================== -->
+
+    <section id="contact"
+             class="contact-section">
+
+        <div class="contact-container">
+
+
+            <div class="contact-title">
+
+                <span>
+                    CONTACT ME
+                </span>
+
+                <h2>
+                    Hubungi Saya
+                </h2>
+
+                <p>
+
+                    Jika ingin menghubungi saya,
+                    Anda dapat menggunakan kontak
+                    di bawah ini.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="contact-grid">
+
+
+                <!-- EMAIL -->
+
+                <a href="mailto:destaargamaulana641@gmail.com"
+                   class="contact-card">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+
+                        <small>
+                            Email
+                        </small>
+
+                        <strong>
+                            destaargamaulana641@gmail.com
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- INSTAGRAM -->
+
+                <a href="https://www.instagram.com/2wenty5ive__"
+                   class="contact-card"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <div>
+
+                        <small>
+                            Instagram
+                        </small>
+
+                        <strong>
+                            @2wenty5ive_
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- LINKEDIN -->
+
+                <a href="https://www.linkedin.com/in/desta-arga-maulana-742694425"
+                   class="contact-card"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    <div>
+
+                        <small>
+                            LinkedIn
+                        </small>
+
+                        <strong>
+                            Desta Arga Maulana
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- GITHUB -->
+
+                <a href="https://github.com/debewwuy"
+                   class="contact-card"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    <div>
+
+                        <small>
+                            GitHub
+                        </small>
+
+                        <strong>
+                            github.com/debewwuy
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- WHATSAPP -->
+
+                <!-- GANTI NOMOR DI BAWAH DENGAN NOMOR WHATSAPP KAMU -->
+
+                <a href="https://wa.me/62XXXXXXXXXX"
+                   class="contact-card"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <div>
+
+                        <small>
+                            WhatsApp
+                        </small>
+
+                        <strong>
+                            Hubungi melalui WhatsApp
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- LOKASI -->
+
+                <div class="contact-card">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+
+                        <small>
+                            Lokasi
+                        </small>
+
+                        <strong>
+                            Ponorogo, Jawa Timur
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         13. FOOTER
+    =================================================== -->
+
     <footer>
-        <p>© 2026_Desta Arga Maulana</p>
+
+
+        <div class="footer-content">
+
+
+            <div>
+
+                <h3>
+                    Desta Arga<span>.</span>
+                </h3>
+
+                <p>
+                    Junior Web Developer
+                </p>
+
+            </div>
+
+
+
+            <!-- SOCIAL MEDIA -->
+
+            <div class="footer-social">
+
+
+                <a href="mailto:destaargamaulana641@gmail.com"
+                   aria-label="Email">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+
+
+                <a href="https://www.linkedin.com/in/desta-arga-maulana-742694425"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </a>
+
+
+
+                <a href="https://github.com/debewwuy"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+
+
+                <a href="https://www.instagram.com/2wenty5ive__"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- FOOTER NAVIGATION -->
+
+        <div class="footer-bottom">
+
+
+            <p>
+                © 2026 Desta Arga Maulana
+            </p>
+
+
+            <div class="footer-links">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    Tentang
+                </a>
+
+                <a href="#projects">
+                    Project
+                </a>
+
+                <a href="#contact">
+                    Kontak
+                </a>
+
+            </div>
+
+
+        </div>
+
+
     </footer>
 
+
 </body>
+
 </html>
